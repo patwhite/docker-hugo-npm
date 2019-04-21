@@ -1,8 +1,8 @@
 FROM alpine:3.6
 MAINTAINER Benjamin Pack <mail@benjaminpack.com>
 
-ARG HUGO_VER=0.40.2
-ARG HUGO_SHA=377b9b0d313556690d376e28cecf216c3e61f1e13c631ebf86068f892ca07709
+ARG HUGO_VER=0.55.3
+ARG HUGO_SHA=2ab8411a6dcd2eb3f8f281f72465aa36ea7ca9a17b4fe13dda625174b72bcd3f
 ARG HUGO_URL=https://github.com/gohugoio/hugo/releases/download
 ARG HUGO_TGZ=hugo_${HUGO_VER}_Linux-64bit.tar.gz
 
